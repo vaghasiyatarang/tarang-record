@@ -1,2 +1,105 @@
 {
+  "workbench.editor.wrapTabs": true,
+  "git.autofetch": true,
+  "gitlens.views.scm.grouped.views": {
+    "commits": false,
+    "branches": true,
+    "remotes": true,
+    "stashes": false,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "fileHistory": false,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+  "workbench.colorTheme": "Default Dark+",
+  "gitlens.views.stashes.files.layout": "list",
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "powermode.enabled": true,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#454a55", // Active tab background 454a55
+    "tab.activeBorderTop": "#ff006e", // Highlight line for active tab
+    // ---------------
+    "tab.hoverBackground": "#454a55", // Subtle pink on hover
+    // "tab.inactiveBackground": "#2b2f36", // Inactive tab background
+    // "tab.border": "#3a3a3a", // Border between tabs
+    // ---------------
+
+    "activityBar.background": "#454a55", // Deep navy background
+    "activityBar.dropBackground": "#454a55", // Subtle drop target highlight
+    "activityBar.border": "#454a55", // Border to separate from editor
+    "activityBarBadge.background": "#ff006e", // Vibrant pink for notifications
+    "activityBar.activeBorder": "#ff006e", // Left border for active item
+
+    "sideBar.background": "#2b2f36", // Darker gray than activity bar
+    "sideBar.foreground": "#e0e0e0", // Light gray text
+    "sideBar.border": "#454a55", // Same as activity bar border
+    "sideBarSectionHeader.background": "#333840",
+    "sideBarSectionHeader.foreground": "#ffffff",
+
+    "statusBar.background": "#00796b", // Teal green
+    "statusBar.foreground": "#ffffff",
+
+    "scrollbarSlider.background": "#454a5580", // Subtle gray (semi-transparent)
+    "scrollbarSlider.hoverBackground": "#5f7a8a99", // Softer teal-gray on hover
+    "scrollbarSlider.activeBackground": "#00796bcc", // Solid teal when dragging
+
+    "titleBar.activeBackground": "#454a55", // Same as Activity Bar for consistency
+    "titleBar.activeForeground": "#ffffff", // White text/icons for contrast
+    "titleBar.inactiveBackground": "#2b2f36", // Slightly darker gray when inactive
+    "titleBar.inactiveForeground": "#aaaaaa" // Muted text/icons for inactive
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "gitlens.views.scm.grouped.hiddenViews": {
+    "commits": false,
+    "worktrees": false,
+    "branches": false,
+    "remotes": false,
+    "stashes": true,
+    "tags": false,
+    "contributors": false,
+    "repositories": true,
+    "fileHistory": false,
+    "launchpad": false,
+    "searchAndCompare": false
+  },
+  "gitlens.views.worktrees.showStashes": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "workbench.panel.showLabels": false,
+  "github.copilot.nextEditSuggestions.enabled": true
 }
